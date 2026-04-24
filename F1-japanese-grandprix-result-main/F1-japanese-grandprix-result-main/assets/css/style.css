@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* F1のダークモードデザイン */
+
+
+
+
+
+body {
+  background-color: #15151e; /* F1の公式っぽいダークグレー */
+  color: #ffffff;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  border-bottom: 2px solid #333333;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+
+h1 {
+  border-left: 5px solid #e10600; /* F1の赤色 */
+  padding-left: 10px;
+}
+
+a {
+  color: #e10600; /* リンクの色 */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.drivers {
+  background-color: #22222d;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 8px; 
+  border-left: 3px solid #555555;
+}
+
+
+.drivers:first-of-type {
+  border-left: 3px solid #e10600;
+}
+
+/* チームカラーの設定 */
+.team-Mercedes {
+  color: #00D2BE; /* メルセデスのペトロナスグリーン */
+  font-size: 1.0em; 
+  margin-left: 10px; 
+}
+
+.team-McLaren {
+  color: #FF8000; /* マクラーレンのパパイヤオレンジ */
+  font-size: 1.0em;
+  margin-left: 10px;
+}
+
+.team-Ferrari {
+  color: #DC0000; /* フェラーリレッド */
+  font-size: 1.0em;
+  margin-left: 10px;
+}
+
+li {
+  color: #cccccc;
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  color: #888888;
+  font-size: 12px;
+  margin-top: 50px;
+  border-top: 1px solid #333333;
+  padding-top: 20px;
+}
+
